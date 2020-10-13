@@ -1,25 +1,23 @@
 {
-  "name": "transactit",
+  "name": "TransacIT",
   "version": "1.0.0",
-  "description": "Transacting fund system Powered By Ethereum",
   "main": "truffle-config.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "dev": "lite-server",
-    "test": "echo \"Error: no test specified\" && sexit 1"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Sangya Sherpa",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sangya2001/TransacIT.git"
+  },
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "bootstrap": "^4.5.2",
-    "chai": "^4.1.2",
-    "chai-as-promised": "^7.1.1",
-    "chai-bignumber": "^2.0.2",
-    "lite-server": "^2.3.0",
-    "nodemon": "^1.17.3",
-    "truffle": "^5.1.47",
-    "truffle-contract": "3.0.6"
-  }
+  "bugs": {
+    "url": "https://github.com/sangya2001/TransacIT/issues"
+  },
+  "homepage": "https://github.com/sangya2001/TransacIT#readme",
+  "description": ""
 }

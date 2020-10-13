@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: Not-Licensed
 pragma solidity >=0.4.22 <0.7.0;
 
-contract Transactions{
+contract Transaction{
     mapping(address => uint) private accountHolders;
     
     event FundTransferred(address to, address from, uint fund);
